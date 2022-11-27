@@ -1,58 +1,22 @@
 class BeersController < ApplicationController
-  before_action :set_beer, only: %i[ show edit update destroy ]
-
-  # GET /beers
   def index
-    @beers = Beer.all
+    query = params[:query]
+    return render "start" unless query
+
+    @beers = FetchBeers.call(query:, page:)
+    render "empty_search_result" if @beers.blank?
   end
 
-  # GET /beers/1
   def show
-  end
-
-  # GET /beers/new
-  def new
-    @beer = Beer.new
-  end
-
-  # GET /beers/1/edit
-  def edit
-  end
-
-  # POST /beers
-  def create
-    @beer = Beer.new(beer_params)
-
-    if @beer.save
-      redirect_to @beer, notice: "Beer was successfully created."
-    else
-      render :new, status: :unprocessable_entity
-    end
-  end
-
-  # PATCH/PUT /beers/1
-  def update
-    if @beer.update(beer_params)
-      redirect_to @beer, notice: "Beer was successfully updated."
-    else
-      render :edit, status: :unprocessable_entity
-    end
-  end
-
-  # DELETE /beers/1
-  def destroy
-    @beer.destroy
-    redirect_to beers_url, notice: "Beer was successfully destroyed."
+    @beer = FetchBeer.call(external_id: params[:id])
+  rescue PunkApi::Client::NotFoundError => error
+    Rails.logger.error(error.message)
+    render "not_found"
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_beer
-      @beer = Beer.find(params[:id])
-    end
 
-    # Only allow a list of trusted parameters through.
-    def beer_params
-      params.require(:beer).permit(:external_id, :data)
-    end
+  def page
+    params[:page] || 1
+  end
 end

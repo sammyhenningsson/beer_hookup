@@ -1,7 +1,24 @@
-<p style="color: green"><%= notice %></p>
-
-<%= render @beer %>
-
-<div>
-  <%= link_to "Back to beers", beers_path %>
+<div class="flex flex-col item-center">
+  <div>
+    <%= link_to "Back to search", beers_path, class: "p-3 shadow-slate-500 shadow-lg rounded bg-stone-200 hover:bg-stone-300 text-center" %>
+  </div>
+  <div class="mt-16">
+    <h1 class="text-xl"><%= @beer.name %></h1>
+    <p><%= @beer.tagline %></p>
+  </div>
+  <div class="mt-4">
+    <p><%= @beer.description %></p>
+  </div>
+  <div class="mt-4">
+    <% if @beer.food_pairing.present? %>
+      <p>This beer goes well with:</p>
+      <ul>
+        <% @beer.food_pairing.each do |dish| %>
+          <li class=""><%= dish %></li>
+        <% end %>
+      </ul>
+    <% else %>
+      <p>This beer goes taste better without food</p>
+    <% end %>
+  </div>
 </div>
