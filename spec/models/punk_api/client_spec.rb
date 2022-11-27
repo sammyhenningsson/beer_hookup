@@ -112,5 +112,31 @@ module PunkApi
         client.beers
       }.to raise_error(Client::Error)
     end
+
+    it "can fetch a single beer" do
+      first_beer = JSON.parse(file_fixture("beers.json").read).first
+      first_beer["id"] = 1337
+      first_beer["name"] = "hello"
+      data = JSON.generate([first_beer])
+      stubs.get("/v2/beers/1337") { [200, {"Content-Type" => "application/json"}, data] }
+
+      beer = client.beer(id: 1337)
+
+      expect(beer["id"]).to eq(1337)
+      expect(beer["name"]).to eq("hello")
+    end
+
+    it "raise error if beer cannot be found" do
+      data = {
+        statusCode: 404,
+        error: "Not Found",
+        message: "No beer found that matches the ID 1337"
+      }.to_json
+      stubs.get("/v2/beers/1337") { [404, {"Content-Type" => "application/json"}, data] }
+
+      expect {
+        client.beer(id: 1337)
+      }.to raise_error(Client::NotFoundError)
+    end
   end
 end
