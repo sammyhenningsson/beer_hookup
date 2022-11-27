@@ -1,12 +1,10 @@
-<p style="color: green"><%= notice %></p>
+<div class="w-3/5">
+  <h1 class="text-2xl text-center">Beers matching "<%= params[:query] %>"</h1>
 
-<h1>Beers</h1>
-
-<div id="beers">
-  <% @beers.each do |beer| %>
-    <%= render partial: 'item', locals: {beer:} %>
-    <p>
-      <%= link_to "Show this beer", beer %>
-    </p>
-  <% end %>
+  <div id="beers">
+    <% @beers.each do |beer| %>
+      <%= render partial: "item", locals: {beer:} %>
+    <% end %>
+  </div>
 </div>
+
