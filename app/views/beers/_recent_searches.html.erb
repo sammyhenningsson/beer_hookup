@@ -1,0 +1,10 @@
+<div class="text-center">
+  <h2 class="mb-4 text-xl">Recent searches</h2>
+  <ul>
+    <% @recent_searches.each do |recent| %>
+      <li class="text-lg text-sky-600 hover:text-xl">
+        <%= link_to recent, beers_path(query: recent) %>
+      </li>
+    <% end %>
+  </ul>
+</div>
