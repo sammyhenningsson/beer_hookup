@@ -7,6 +7,7 @@ class BeersController < ApplicationController
     save_search
 
     @beers = FetchBeers.call(query:, page:)
+    @pagination = paginate(@beers)
     render "empty_search_result" if @beers.blank?
   end
 
@@ -21,7 +22,14 @@ class BeersController < ApplicationController
   private
 
   def page
-    params[:page] || 1
+    params[:page]&.to_i || 1
+  end
+
+  def paginate(beers)
+    pagination = {page:}
+    pagination[:next_page] = beers_path(query: params[:query], page: page + 1) if beers.size == 10
+    pagination[:prev_page] = beers_path(query: params[:query], page: page - 1) if page > 1
+    pagination
   end
 
   def save_search
