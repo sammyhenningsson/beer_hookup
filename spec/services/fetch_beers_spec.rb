@@ -2,7 +2,7 @@
 
 require "rails_helper"
 
-RSpec.describe FetchBeers, type: :model do
+RSpec.describe FetchBeers do
   let(:stubs) { Faraday::Adapter::Test::Stubs.new }
   let(:client) { PunkApi::Client.new(adapter: [:test, stubs]) }
   let(:data) { file_fixture("beers.json").read }
@@ -23,7 +23,7 @@ RSpec.describe FetchBeers, type: :model do
   it "does not persit new beers when already existing" do
     parsed = JSON.parse(data)
     first_two = JSON.generate(parsed[..1])
-    first_four = JSON.generate(parsed[..4])
+    first_four = JSON.generate(parsed[..3])
     stubs.get("/v2/beers?page=1&per_page=2") { [200, {"Content-Type" => "application/json"}, first_two] }
     stubs.get("/v2/beers?page=1&per_page=4") { [200, {"Content-Type" => "application/json"}, first_four] }
 

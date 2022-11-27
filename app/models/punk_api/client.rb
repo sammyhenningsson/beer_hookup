@@ -13,10 +13,18 @@ module PunkApi
         super <<~MSG
           Server responded with status #{response.status}
           Request: #{response.env.method.upcase} #{response.env.url}
-          message: #{response.body}
+          message: #{build_message}
         MSG
       end
+
+      def build_message
+        body = response.body
+        msg = body["message"] if body.is_a? Hash
+        msg || body.to_s
+      end
     end
+
+    class NotFoundError < Error; end
 
     PER_PAGE = 10
 
@@ -31,16 +39,25 @@ module PunkApi
       query = {page:, per_page:}
       query[:beer_name] = name if name.present?
 
-      get("beers", query)
+      get("beers", query).body
+    end
+
+    def beer(id:)
+      id = id.to_i
+      response = get("beers/#{id}")
+      return response.body.first if response.body&.first&.fetch("id", nil) == id
+
+      raise Error, response
     end
 
     private
 
-    def get(url, query)
-      response = connection.get("beers", query)
+    def get(url, query = nil)
+      response = connection.get(url, query)
+      raise NotFoundError, response if response.status == 404
       raise Error, response unless response.success?
 
-      response.body
+      response
     end
 
     def connection
