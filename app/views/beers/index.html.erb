@@ -1,10 +1,22 @@
-<div class="w-3/5">
-  <h1 class="text-2xl text-center">Beers matching "<%= params[:query] %>"</h1>
+<%= turbo_frame_tag "beers" do %>
+  <div class="w-3/5">
+    <h1 class="text-2xl text-center">Beers matching "<%= params[:query] %>"</h1>
 
-  <div id="beers">
-    <% @beers.each do |beer| %>
-      <%= render partial: "item", locals: {beer:} %>
-    <% end %>
+    <div id="beers">
+      <% @beers.each do |beer| %>
+        <%= render partial: "item", locals: {beer:} %>
+      <% end %>
+      <div class="mt-8 w-full flex flex-row justify-between text-lg">
+        <span class="text-sky-600 hover:text-xl">
+          <%= link_to("Previous", @pagination[:prev_page]) if @pagination[:prev_page] %>
+        </span>
+        <span>
+          page <%= @pagination[:page] %>
+        </span>
+        <span class="text-sky-600 hover:text-xl">
+          <%= link_to("Next", @pagination[:next_page]) if @pagination[:next_page] %>
+        </span>
+      </div>
+    </div>
   </div>
-</div>
-
+<% end %>
