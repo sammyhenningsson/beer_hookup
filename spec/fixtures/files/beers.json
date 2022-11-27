@@ -1,0 +1,1588 @@
+[
+  {
+    "id": 4,
+    "name": "Pilsen Lager",
+    "tagline": "Unleash the Yeast Series.",
+    "first_brewed": "09/2013",
+    "description": "Our Unleash the Yeast series was an epic experiment into the differences in aroma and flavour provided by switching up your yeast. We brewed up a wort with a light caramel note and some toasty biscuit flavour, and hopped it with Amarillo and Centennial for a citrusy bitterness. Everything else is down to the yeast. Pilsner yeast ferments with no fruity esters or spicy phenols, although it can add a hint of butterscotch.",
+    "image_url": "https://images.punkapi.com/v2/4.png",
+    "abv": 6.3,
+    "ibu": 55,
+    "target_fg": 1012,
+    "target_og": 1060,
+    "ebc": 30,
+    "srm": 15,
+    "ph": 4.4,
+    "attenuation_level": 80,
+    "volume": {
+      "value": 20,
+      "unit": "litres"
+    },
+    "boil_volume": {
+      "value": 25,
+      "unit": "litres"
+    },
+    "method": {
+      "mash_temp": [
+        {
+          "temp": {
+            "value": 65,
+            "unit": "celsius"
+          },
+          "duration": null
+        }
+      ],
+      "fermentation": {
+        "temp": {
+          "value": 9,
+          "unit": "celsius"
+        }
+      },
+      "twist": null
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Extra Pale",
+          "amount": {
+            "value": 4.58,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Caramalt",
+          "amount": {
+            "value": 0.25,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Dark Crystal",
+          "amount": {
+            "value": 0.06,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Munich",
+          "amount": {
+            "value": 0.25,
+            "unit": "kilograms"
+          }
+        }
+      ],
+      "hops": [
+        {
+          "name": "Centennial",
+          "amount": {
+            "value": 5,
+            "unit": "grams"
+          },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Amarillo",
+          "amount": {
+            "value": 5,
+            "unit": "grams"
+          },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Centennial",
+          "amount": {
+            "value": 10,
+            "unit": "grams"
+          },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Amarillo",
+          "amount": {
+            "value": 10,
+            "unit": "grams"
+          },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Centennial",
+          "amount": {
+            "value": 17.5,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Amarillo",
+          "amount": {
+            "value": 17.5,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        }
+      ],
+      "yeast": "Wyeast 2007 - Pilsen Lager™"
+    },
+    "food_pairing": [
+      "Spicy crab cakes",
+      "Spicy cucumber and carrot Thai salad",
+      "Sweet filled dumplings"
+    ],
+    "brewers_tips": "Play around with the fermentation temperature to get the best flavour profile from the individual yeasts.",
+    "contributed_by": "Ali Skinner <AliSkinner>"
+  },
+  {
+    "id": 8,
+    "name": "Fake Lager",
+    "tagline": "Bohemian Pilsner.",
+    "first_brewed": "03/2013",
+    "description": "Fake is the new black. Fake is where it is at. Fake Art, fake brands, fake breasts, and fake lager. We want to play our part in the ugly fallout from the Lager Dream. Say hello to Fake Lager – a zesty, floral 21st century faux masterpiece with added BrewDog bitterness.",
+    "image_url": "https://images.punkapi.com/v2/8.png",
+    "abv": 4.7,
+    "ibu": 40,
+    "target_fg": 1010,
+    "target_og": 1046,
+    "ebc": 12,
+    "srm": 6,
+    "ph": 4.4,
+    "attenuation_level": 78,
+    "volume": {
+      "value": 20,
+      "unit": "litres"
+    },
+    "boil_volume": {
+      "value": 25,
+      "unit": "litres"
+    },
+    "method": {
+      "mash_temp": [
+        {
+          "temp": {
+            "value": 65,
+            "unit": "celsius"
+          },
+          "duration": 75
+        }
+      ],
+      "fermentation": {
+        "temp": {
+          "value": 10,
+          "unit": "celsius"
+        }
+      },
+      "twist": null
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Extra Pale",
+          "amount": {
+            "value": 3.33,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Munich",
+          "amount": {
+            "value": 0.42,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Caramalt",
+          "amount": {
+            "value": 0.28,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Acidulated Malt",
+          "amount": {
+            "value": 0.07,
+            "unit": "kilograms"
+          }
+        }
+      ],
+      "hops": [
+        {
+          "name": "Magnum",
+          "amount": {
+            "value": 7.5,
+            "unit": "grams"
+          },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Magnum",
+          "amount": {
+            "value": 5,
+            "unit": "grams"
+          },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Hersbrucker",
+          "amount": {
+            "value": 6.25,
+            "unit": "grams"
+          },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Saaz",
+          "amount": {
+            "value": 6.25,
+            "unit": "grams"
+          },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Hersbrucker",
+          "amount": {
+            "value": 18.75,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Saaz",
+          "amount": {
+            "value": 18.75,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        }
+      ],
+      "yeast": "Wyeast 2007 - Pilsen Lager™"
+    },
+    "food_pairing": [
+      "Fried crab cakes with avocado salsa",
+      "Spicy shredded pork roll with hot dipping sauce",
+      "Key lime pie"
+    ],
+    "brewers_tips": "Once the primary fermentation is complete get this beer as cold as you can and let it mature for as long as you've got.",
+    "contributed_by": "Sam Mason <samjbmason>"
+  },
+  {
+    "id": 81,
+    "name": "India Session Lager - Prototype Challenge",
+    "tagline": "Refreshing Hop Fix.",
+    "first_brewed": "11/2015",
+    "description": "BrewDog’s level of dry-hop to a beer formed with a baseline of 100% pilsner malt – and at under 4.5% ABV – gives you a style that flirts at the edges of several others. Think aromas of fresh cut grass, nettle, white grape, melon, tangerine - with similar flavours leading to a dry, bitter finish.",
+    "image_url": "https://images.punkapi.com/v2/keg.png",
+    "abv": 4.4,
+    "ibu": 35,
+    "target_fg": 1007,
+    "target_og": 1040,
+    "ebc": 12,
+    "srm": 6,
+    "ph": 4.4,
+    "attenuation_level": 79.5,
+    "volume": {
+      "value": 20,
+      "unit": "litres"
+    },
+    "boil_volume": {
+      "value": 25,
+      "unit": "litres"
+    },
+    "method": {
+      "mash_temp": [
+        {
+          "temp": {
+            "value": 65,
+            "unit": "celsius"
+          },
+          "duration": 75
+        }
+      ],
+      "fermentation": {
+        "temp": {
+          "value": 10,
+          "unit": "celsius"
+        }
+      },
+      "twist": null
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Pilsner",
+          "amount": {
+            "value": 3.25,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Dextrin Malt",
+          "amount": {
+            "value": 0.38,
+            "unit": "kilograms"
+          }
+        }
+      ],
+      "hops": [
+        {
+          "name": "Chinook",
+          "amount": {
+            "value": 2.5,
+            "unit": "grams"
+          },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Amarillo",
+          "amount": {
+            "value": 25,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Simcoe",
+          "amount": {
+            "value": 12.5,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Citra",
+          "amount": {
+            "value": 25,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Mosaic",
+          "amount": {
+            "value": 12.5,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Amarillo",
+          "amount": {
+            "value": 63,
+            "unit": "grams"
+          },
+          "add": "dry hop",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Simcoe",
+          "amount": {
+            "value": 63,
+            "unit": "grams"
+          },
+          "add": "dry hop",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Citra",
+          "amount": {
+            "value": 63,
+            "unit": "grams"
+          },
+          "add": "dry hop",
+          "attribute": "aroma"
+        }
+      ],
+      "yeast": "Wyeast 2007 - Pilsen Lager™"
+    },
+    "food_pairing": [
+      "Tomato and rosemary palmiers",
+      "Bratwurst with sauerkraut",
+      "Lemon drizzle cake"
+    ],
+    "brewers_tips": "Let the beer lager at a low temperature for 3-4 weeks before adding the dry hops.",
+    "contributed_by": "Sam Mason <samjbmason>"
+  },
+  {
+    "id": 159,
+    "name": "Black Tokyo Horizon (w/Nøgne Ø & Mikkeller)",
+    "tagline": "Imperial Stout Collaboration.",
+    "first_brewed": "12/2010",
+    "description": "Special Collaboration between Nøgne, Mikkeller and BrewDog which is a recipe based on all three brewers’ big stouts; Nøgne Ø Dark Horizon, Mikkeller Black and BrewDog Tokyo*.",
+    "image_url": "https://images.punkapi.com/v2/159.png",
+    "abv": 17.2,
+    "ibu": 75,
+    "target_fg": 1030,
+    "target_og": 1156,
+    "ebc": 128,
+    "srm": 64,
+    "ph": 4.4,
+    "attenuation_level": 80.8,
+    "volume": {
+      "value": 20,
+      "unit": "litres"
+    },
+    "boil_volume": {
+      "value": 25,
+      "unit": "litres"
+    },
+    "method": {
+      "mash_temp": [
+        {
+          "temp": {
+            "value": 65,
+            "unit": "celsius"
+          },
+          "duration": 120
+        }
+      ],
+      "fermentation": {
+        "temp": {
+          "value": 21,
+          "unit": "celsius"
+        }
+      },
+      "twist": null
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Extra Pale",
+          "amount": {
+            "value": 4.38,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Carafa Special Malt Type 1",
+          "amount": {
+            "value": 1.5,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Flaked Oats",
+          "amount": {
+            "value": 0.56,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Smoked Malt",
+          "amount": {
+            "value": 0.25,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Crystal 150",
+          "amount": {
+            "value": 0.25,
+            "unit": "kilograms"
+          }
+        }
+      ],
+      "hops": [
+        {
+          "name": "Columbus",
+          "amount": {
+            "value": 37.5,
+            "unit": "grams"
+          },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Columbus",
+          "amount": {
+            "value": 37.5,
+            "unit": "grams"
+          },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "First Gold",
+          "amount": {
+            "value": 18.5,
+            "unit": "grams"
+          },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Motueka",
+          "amount": {
+            "value": 12.5,
+            "unit": "grams"
+          },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Hersbrucker",
+          "amount": {
+            "value": 12.5,
+            "unit": "grams"
+          },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "First Gold",
+          "amount": {
+            "value": 18.5,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Motueka",
+          "amount": {
+            "value": 12.5,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Hersbrucker",
+          "amount": {
+            "value": 12.5,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        }
+      ],
+      "yeast": "Wyeast 1272 - American Ale II™"
+    },
+    "food_pairing": [
+      "Truffle oil filet mignon",
+      "Sweet sticky beef brisket",
+      "Chocolate and dark cherry fondant"
+    ],
+    "brewers_tips": "Extend the mash time as much as possible to create maximum fermentable sugars. Boil for longer in the kettle to help evaporate off the water, and make the sugar concentration stronger.",
+    "contributed_by": "Sam Mason <samjbmason>"
+  },
+  {
+    "id": 162,
+    "name": "77 Lager",
+    "tagline": "Artisan Rebel Pilsner.",
+    "first_brewed": "12/2008",
+    "description": "Think of everything you know about lagers. Then forget it all instantly. 77 will redefine the experience forever. A Lager that actually tastes of something? You have to be kidding, right? 77 lager is made with 100% malt and whole leaf hops. It contains no preservatives, additives, cheap substitutes or any other junk. Maybe we are crazy. So what? Taste 77 Lager and we are pretty sure you will agree that the fine line between genius and insanity has just become a little more blurred.",
+    "image_url": "https://images.punkapi.com/v2/162.png",
+    "abv": 4.9,
+    "ibu": 30,
+    "target_fg": 1009,
+    "target_og": 1047,
+    "ebc": 12,
+    "srm": 6,
+    "ph": 4.4,
+    "attenuation_level": 80.7,
+    "volume": {
+      "value": 20,
+      "unit": "litres"
+    },
+    "boil_volume": {
+      "value": 25,
+      "unit": "litres"
+    },
+    "method": {
+      "mash_temp": [
+        {
+          "temp": {
+            "value": 65,
+            "unit": "celsius"
+          },
+          "duration": 75
+        }
+      ],
+      "fermentation": {
+        "temp": {
+          "value": 10,
+          "unit": "celsius"
+        }
+      },
+      "twist": null
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Extra Pale",
+          "amount": {
+            "value": 3.63,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Caramalt",
+          "amount": {
+            "value": 0.31,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Munich",
+          "amount": {
+            "value": 0.31,
+            "unit": "kilograms"
+          }
+        }
+      ],
+      "hops": [
+        {
+          "name": "Hallertauer Mittelfrüh",
+          "amount": {
+            "value": 37.5,
+            "unit": "grams"
+          },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Hallertauer Mittelfrüh",
+          "amount": {
+            "value": 25,
+            "unit": "grams"
+          },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Tettnang",
+          "amount": {
+            "value": 37.5,
+            "unit": "grams"
+          },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Saaz",
+          "amount": {
+            "value": 25,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        }
+      ],
+      "yeast": "Wyeast 2007 - Pilsen Lager™"
+    },
+    "food_pairing": [
+      "Aromatic spicy red thai curry",
+      "Sticky spicy barbecue ribs with a strong blue cheese dipping sauce",
+      "Creamy warm baked goats cheese salad"
+    ],
+    "brewers_tips": "Watch out for collecting too much wort. Collecting too much liquid from run off (under 1008) may impart massive and undesired 'grainy' flavours into the beer",
+    "contributed_by": "Mike Francis <mikeffrancis@gmail.com>"
+  },
+  {
+    "id": 163,
+    "name": "This. Is. Lager",
+    "tagline": "21st Century Pilsner. Sharp. Robust. Honest.",
+    "first_brewed": "08/2014",
+    "description": "Brewed with 100% malt, ten times the hops of most industrial lagers and cold-conditioned for five weeks, this spicy, robust Pilsner is lager reborn. Expect a robust, full-bodied malt character on the front of the tongue, spicy citrus notes as it goes back through the palate and an assertive bitter finish with a lemon and pepper character to round things off.",
+    "image_url": "https://images.punkapi.com/v2/163.png",
+    "abv": 4.7,
+    "ibu": 37,
+    "target_fg": 1007,
+    "target_og": 1043,
+    "ebc": 10,
+    "srm": 6,
+    "ph": 4.2,
+    "attenuation_level": 83.7,
+    "volume": {
+      "value": 20,
+      "unit": "litres"
+    },
+    "boil_volume": {
+      "value": 25,
+      "unit": "litres"
+    },
+    "method": {
+      "mash_temp": [
+        {
+          "temp": {
+            "value": 65,
+            "unit": "celsius"
+          },
+          "duration": 75
+        }
+      ],
+      "fermentation": {
+        "temp": {
+          "value": 12,
+          "unit": "celsius"
+        }
+      },
+      "twist": null
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Pilsner",
+          "amount": {
+            "value": 3.81,
+            "unit": "kilograms"
+          }
+        }
+      ],
+      "hops": [
+        {
+          "name": "Columbus",
+          "amount": {
+            "value": 5,
+            "unit": "grams"
+          },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Hersbrucker",
+          "amount": {
+            "value": 12.5,
+            "unit": "grams"
+          },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Saaz",
+          "amount": {
+            "value": 12.5,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        }
+      ],
+      "yeast": "Wyeast 2007 - Pilsen Lager™"
+    },
+    "food_pairing": [
+      "Mexican ceviche",
+      "Blue cheese crumbled over wedges",
+      "Gooey lemon bar"
+    ],
+    "brewers_tips": "The most important thing about making a lager? Fermentation temperature! Do everything you can to control the ambient temperature to 9 - 12°C. In the old days, they used to brew lager over winter, so the colder temperature gave a much preferable fermentation profile. Ferment too hot and you beer will taste like yeasty bread.",
+    "contributed_by": "Sam Mason <samjbmason>"
+  },
+  {
+    "id": 214,
+    "name": "Cult Lager",
+    "tagline": "US & New Zeland Hopped Lager",
+    "first_brewed": "04/2008",
+    "description": "A lager that actually tastes of something? You have to be kidding, right? Cult lager is made with 100% malt and whole leaf hops. Maybe we are crazy, so what? Taste our lager and we are pretty sure that you will agree that the fine line between insanity and genius has just become a little more blurred.",
+    "image_url": "https://images.punkapi.com/v2/214.png",
+    "abv": 5.4,
+    "ibu": 50,
+    "target_fg": 1049,
+    "target_og": 1008,
+    "ebc": 19,
+    "srm": 8,
+    "ph": 4.1,
+    "attenuation_level": 83.7,
+    "volume": {
+      "value": 20,
+      "unit": "litres"
+    },
+    "boil_volume": {
+      "value": 25,
+      "unit": "litres"
+    },
+    "method": {
+      "mash_temp": [
+        {
+          "temp": {
+            "value": 65,
+            "unit": "celsius"
+          },
+          "duration": 75
+        }
+      ],
+      "fermentation": {
+        "temp": {
+          "value": 10,
+          "unit": "celsius"
+        }
+      },
+      "twist": null
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Lager Malt",
+          "amount": {
+            "value": 4.66,
+            "unit": "kilograms"
+          }
+        }
+      ],
+      "hops": [
+        {
+          "name": "Saaz",
+          "amount": {
+            "value": 12.5,
+            "unit": "grams"
+          },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Cascade",
+          "amount": {
+            "value": 12.5,
+            "unit": "grams"
+          },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Cascade",
+          "amount": {
+            "value": 25,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Chinook",
+          "amount": {
+            "value": 25,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Motueka",
+          "amount": {
+            "value": 12.5,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        }
+      ],
+      "yeast": "Saflager S189"
+    },
+    "food_pairing": [
+      "Arrabiata pasta with grilled prawns",
+      "Mexican spiced chicken with hot sauce",
+      "Orange marmalade thumb print cookie"
+    ],
+    "brewers_tips": "When the fermentation is nearly complete, allow the temperature of the beer to rise. This will scrub some of the undesirable flavours out.",
+    "contributed_by": "Sam Mason <samjbmason>"
+  },
+  {
+    "id": 216,
+    "name": "Barrel Aged Hinterland",
+    "tagline": "A Most Beguiling Brew. Aged In Bourbon Casks.",
+    "first_brewed": "06/2016",
+    "description": "Hinterland is a beer long in the creation, and even longer in the appreciation. On the aroma, deep reverberating roasty bitterness and sweet dark chocolate. Also in evidence, woodsmoke, rich vanilla, mocha and marzipan. When tasting, Hinterland reveals itself as the beer moves from cellar temperature to something warmer, yielding all of the above plus dried fruit, rich ganache and ending on a resoundingly warming  nish redolent of chocolate liqueur or plum brandy. Aged in Bourbon Casks.",
+    "image_url": "https://images.punkapi.com/v2/216.png",
+    "abv": 9,
+    "ibu": 85,
+    "target_fg": 1025,
+    "target_og": 1094,
+    "ebc": 400,
+    "srm": 200,
+    "ph": 4.3,
+    "attenuation_level": 73.4,
+    "volume": {
+      "value": 20,
+      "unit": "litres"
+    },
+    "boil_volume": {
+      "value": 25,
+      "unit": "litres"
+    },
+    "method": {
+      "mash_temp": [
+        {
+          "temp": {
+            "value": 65,
+            "unit": "celsius"
+          },
+          "duration": null
+        }
+      ],
+      "fermentation": {
+        "temp": {
+          "value": 21,
+          "unit": "celsius"
+        }
+      },
+      "twist": "Lactose (Milk Sugar): 500g at middle"
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Pale Ale",
+          "amount": {
+            "value": 6.88,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Wheat",
+          "amount": {
+            "value": 0.5,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Flaked Oats",
+          "amount": {
+            "value": 1,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Dark Crystal",
+          "amount": {
+            "value": 0.5,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Carafa Special Malt Type 1",
+          "amount": {
+            "value": 0.75,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Chocolate",
+          "amount": {
+            "value": 1,
+            "unit": "kilograms"
+          }
+        }
+      ],
+      "hops": [
+        {
+          "name": "Bramling Cross",
+          "amount": {
+            "value": 12.5,
+            "unit": "grams"
+          },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Bramling Cross",
+          "amount": {
+            "value": 12.5,
+            "unit": "grams"
+          },
+          "add": "start",
+          "attribute": "bitter"
+        },
+        {
+          "name": "Sorachi Ace",
+          "amount": {
+            "value": 12.5,
+            "unit": "grams"
+          },
+          "add": "middle",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Sorachi Ace",
+          "amount": {
+            "value": 25,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        },
+        {
+          "name": "Willamette",
+          "amount": {
+            "value": 25,
+            "unit": "grams"
+          },
+          "add": "end",
+          "attribute": "flavour"
+        }
+      ],
+      "yeast": "Wyeast 1272 - American Ale II™"
+    },
+    "food_pairing": [
+      "Mulled cheddar buffalo burger",
+      "Venison with warm spices (cardamom) and sweet potato",
+      "Pure vanilla bean ice cream"
+    ],
+    "brewers_tips": "Towards the end of the fermentation allow the temperature to free rise. This will let the yeast finish off the fermentation and scour off-flavours from the beer.",
+    "contributed_by": "Sam Mason <samjbmason>"
+  },
+  {
+    "id": 263,
+    "name": "Small Batch: Mandarina Lager",
+    "tagline": "Pithy Pale Pilsner.",
+    "first_brewed": "2017",
+    "description": "A bitter pils-style lager which is packed with aromas of citrus and a dry, refreshing biscuit malt backbone. Light floral notes add to the complexity.",
+    "image_url": "https://images.punkapi.com/v2/keg.png",
+    "abv": 5.3,
+    "ibu": 40,
+    "target_fg": 1008,
+    "target_og": 1049,
+    "ebc": 7,
+    "srm": 4,
+    "ph": 4.3,
+    "attenuation_level": 84,
+    "volume": {
+      "value": 20,
+      "unit": "litres"
+    },
+    "boil_volume": {
+      "value": 25,
+      "unit": "litres"
+    },
+    "method": {
+      "mash_temp": [
+        {
+          "temp": {
+            "value": 64,
+            "unit": "celsius"
+          },
+          "duration": 35
+        }
+      ],
+      "fermentation": {
+        "temp": {
+          "value": 10,
+          "unit": "celsius"
+        }
+      },
+      "twist": null
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Pilsner",
+          "amount": {
+            "value": 3.096,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Pale Ale",
+          "amount": {
+            "value": 1.032,
+            "unit": "kilograms"
+          }
+        }
+      ],
+      "hops": [
+        {
+          "name": "Magnum",
+          "amount": {
+            "value": 4,
+            "unit": "grams"
+          },
+          "add": "70",
+          "attribute": "Bitter"
+        },
+        {
+          "name": "Mandarina Bavaria",
+          "amount": {
+            "value": 20,
+            "unit": "grams"
+          },
+          "add": "15",
+          "attribute": "Flavour"
+        },
+        {
+          "name": "Mandarina Bavaria",
+          "amount": {
+            "value": 20,
+            "unit": "grams"
+          },
+          "add": "0",
+          "attribute": "Aroma"
+        }
+      ],
+      "yeast": "Wyeast 2126 - Bohemian Lager™"
+    },
+    "food_pairing": [
+      "Green Thai Curry",
+      "Fish Tacos",
+      "Goat's Cheese Salad With Walnuts, Radish And Blood Orange"
+    ],
+    "brewers_tips": "After boiling your wort, chill the wort down quickly to avoid the compound DMS forming. DMS gives beer a tinned sweetcorn like aroma.",
+    "contributed_by": "John Jenkman <johnjenkman>"
+  },
+  {
+    "id": 310,
+    "name": "Clockwork Tangerine",
+    "tagline": "Citrus IPA.",
+    "first_brewed": "2018",
+    "description": "Winner of the 2017 Prototype Challenge, ClockWork Tangerine is a session strength IPA, infused with tangerine, and appears as our new Q2 Seasonal, replacing Hop Fiction.",
+    "image_url": null,
+    "abv": 4.5,
+    "ibu": 37,
+    "target_fg": 1012,
+    "target_og": 1047,
+    "ebc": 20,
+    "srm": 10,
+    "ph": 4.2,
+    "attenuation_level": 75,
+    "volume": {
+      "value": 20,
+      "unit": "litres"
+    },
+    "boil_volume": {
+      "value": 25,
+      "unit": "litres"
+    },
+    "method": {
+      "mash_temp": [
+        {
+          "temp": {
+            "value": 66,
+            "unit": "celsius"
+          },
+          "duration": 45
+        }
+      ],
+      "fermentation": {
+        "temp": {
+          "value": 19,
+          "unit": "celsius"
+        }
+      },
+      "twist": null
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Pale Ale",
+          "amount": {
+            "value": 3.42,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Caramalt",
+          "amount": {
+            "value": 0.432,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Medium Crystal",
+          "amount": {
+            "value": 0.09,
+            "unit": "kilograms"
+          }
+        }
+      ],
+      "hops": [
+        {
+          "name": "Simcoe",
+          "amount": {
+            "value": 6,
+            "unit": "grams"
+          },
+          "add": "70",
+          "attribute": "Bitter"
+        },
+        {
+          "name": "Citra",
+          "amount": {
+            "value": 2,
+            "unit": "grams"
+          },
+          "add": "70",
+          "attribute": "Bitter"
+        },
+        {
+          "name": "Simcoe",
+          "amount": {
+            "value": 2,
+            "unit": "grams"
+          },
+          "add": "10",
+          "attribute": "Flavour"
+        },
+        {
+          "name": "Citra",
+          "amount": {
+            "value": 2,
+            "unit": "grams"
+          },
+          "add": "10",
+          "attribute": "Flavour"
+        },
+        {
+          "name": "Ahtanum",
+          "amount": {
+            "value": 5,
+            "unit": "grams"
+          },
+          "add": "10",
+          "attribute": "Flavour"
+        },
+        {
+          "name": "Chinook",
+          "amount": {
+            "value": 5,
+            "unit": "grams"
+          },
+          "add": "10",
+          "attribute": "Flavour"
+        },
+        {
+          "name": "Chinook",
+          "amount": {
+            "value": 3,
+            "unit": "grams"
+          },
+          "add": "0",
+          "attribute": "Aroma"
+        },
+        {
+          "name": "Simcoe",
+          "amount": {
+            "value": 18,
+            "unit": "grams"
+          },
+          "add": "0",
+          "attribute": "Aroma"
+        },
+        {
+          "name": "Citra",
+          "amount": {
+            "value": 5,
+            "unit": "grams"
+          },
+          "add": "0",
+          "attribute": "Aroma"
+        },
+        {
+          "name": "Mosaic",
+          "amount": {
+            "value": 8,
+            "unit": "grams"
+          },
+          "add": "0",
+          "attribute": "Aroma"
+        },
+        {
+          "name": "Tangerine Extract",
+          "amount": {
+            "value": 7.5,
+            "unit": "grams"
+          },
+          "add": "Flame Out",
+          "attribute": "Flavour"
+        },
+        {
+          "name": "Simcoe",
+          "amount": {
+            "value": 40,
+            "unit": "grams"
+          },
+          "add": "Dry Hop",
+          "attribute": "Aroma"
+        },
+        {
+          "name": "Citra",
+          "amount": {
+            "value": 25,
+            "unit": "grams"
+          },
+          "add": "Dry Hop",
+          "attribute": "Aroma"
+        },
+        {
+          "name": "Mosaic",
+          "amount": {
+            "value": 25,
+            "unit": "grams"
+          },
+          "add": "Dry Hop",
+          "attribute": "Aroma"
+        },
+        {
+          "name": "Chinook",
+          "amount": {
+            "value": 19,
+            "unit": "grams"
+          },
+          "add": "Dry Hop",
+          "attribute": "Aroma"
+        },
+        {
+          "name": "Ahtanum",
+          "amount": {
+            "value": 15,
+            "unit": "grams"
+          },
+          "add": "Dry Hop",
+          "attribute": "Aroma"
+        },
+        {
+          "name": "Cascade",
+          "amount": {
+            "value": 15,
+            "unit": "grams"
+          },
+          "add": "Dry Hop",
+          "attribute": "Aroma"
+        },
+        {
+          "name": "Amarillo",
+          "amount": {
+            "value": 4,
+            "unit": "grams"
+          },
+          "add": "Dry Hop",
+          "attribute": "Aroma"
+        }
+      ],
+      "yeast": "Wyeast 1056 - American Ale™"
+    },
+    "food_pairing": [
+      "Lamb and mint tagine",
+      "Light and fluffy tangerine sponge cake",
+      "Fresh green salad with avocados and pomegranate seeds"
+    ],
+    "brewers_tips": "Try your own fruit series with this beer. Grapefruit, Passionfruit, Rapberries or Morello Cherries would be great.",
+    "contributed_by": "John Jenkman <johnjenkman>"
+  },
+  {
+    "id": 323,
+    "name": "Interstate Vienna Lager.",
+    "tagline": "Vienna Lager.",
+    "first_brewed": "2018",
+    "description": "A new 5% ABV Vienna Lager, that features in Fanzine, our new subscription model.",
+    "image_url": null,
+    "abv": 5,
+    "ibu": 25,
+    "target_fg": 1007,
+    "target_og": 1045,
+    "ebc": 14,
+    "srm": 7,
+    "ph": 4.2,
+    "attenuation_level": 84,
+    "volume": {
+      "value": 20,
+      "unit": "litres"
+    },
+    "boil_volume": {
+      "value": 25,
+      "unit": "litres"
+    },
+    "method": {
+      "mash_temp": [
+        {
+          "temp": {
+            "value": 67,
+            "unit": "celsius"
+          },
+          "duration": 70
+        }
+      ],
+      "fermentation": {
+        "temp": {
+          "value": 10,
+          "unit": "celsius"
+        }
+      },
+      "twist": null
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Pilsner",
+          "amount": {
+            "value": 1.56,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Vienna",
+          "amount": {
+            "value": 1.56,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Munich",
+          "amount": {
+            "value": 0.6,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Carahell",
+          "amount": {
+            "value": 0.18,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Carared",
+          "amount": {
+            "value": 0.18,
+            "unit": "kilograms"
+          }
+        }
+      ],
+      "hops": [
+        {
+          "name": "Perle",
+          "amount": {
+            "value": 5,
+            "unit": "grams"
+          },
+          "add": "65",
+          "attribute": "Bittering"
+        },
+        {
+          "name": "Hallertauer Mittelfrüh",
+          "amount": {
+            "value": 20,
+            "unit": "grams"
+          },
+          "add": "10",
+          "attribute": "Aroma"
+        },
+        {
+          "name": "Mandarina Bavaria",
+          "amount": {
+            "value": 20,
+            "unit": "grams"
+          },
+          "add": "0",
+          "attribute": "Aroma"
+        }
+      ],
+      "yeast": "Wyeast 2126 - Bohemian Lager™"
+    },
+    "food_pairing": [
+      "Grilled chicken and steamed vegetables",
+      "Pork sausages",
+      "Almond biscotti"
+    ],
+    "brewers_tips": "Instead of using Pilsner, try to substitute this out for more Vienna malt. This is more traditional but you should calculate your diastatic power for your new mash. Ideally it should be a minimum of 30 to 50 Lintner.",
+    "contributed_by": "John Jenkman <johnjenkman>"
+  },
+  {
+    "id": 324,
+    "name": "Fools Gold Dortmunder Lager",
+    "tagline": "Lager.",
+    "first_brewed": "2018",
+    "description": "A new 5.6% Dortmunder Lager, that featues in Fanzine, our new subscription model.",
+    "image_url": null,
+    "abv": 5.6,
+    "ibu": 32,
+    "target_fg": 1009,
+    "target_og": 1052,
+    "ebc": 11,
+    "srm": 6,
+    "ph": 4.2,
+    "attenuation_level": 83,
+    "volume": {
+      "value": 20,
+      "unit": "litres"
+    },
+    "boil_volume": {
+      "value": 25,
+      "unit": "litres"
+    },
+    "method": {
+      "mash_temp": [
+        {
+          "temp": {
+            "value": 65,
+            "unit": "celsius"
+          },
+          "duration": 45
+        }
+      ],
+      "fermentation": {
+        "temp": {
+          "value": 14,
+          "unit": "celsius"
+        }
+      },
+      "twist": null
+    },
+    "ingredients": {
+      "malt": [
+        {
+          "name": "Pilsner",
+          "amount": {
+            "value": 3.36,
+            "unit": "kilograms"
+          }
+        },
+        {
+          "name": "Pale Ale",
+          "amount": {
+            "value": 1.2,
+            "unit": "kilograms"
+          }
+        }
+      ],
+      "hops": [
+        {
+          "name": "Magnum",
+          "amount": {
+            "value": 10,
+            "unit": "grams"
+          },
+          "add": "70",
+          "attribute": "Bitering"
+        },
+        {
+          "name": "Sterling",
+          "amount": {
+            "value": 20,
+            "unit": "grams"
+          },
+          "add": "10",
+          "attribute": "Flavour"
+        },
+        {
+          "name": "Sterling",
+          "amount": {
+            "value": 20,
+            "unit": "grams"
+          },
+          "add": "0",
+          "attribute": "Aroma"
+        }
+      ],
+      "yeast": "Saflager W-34/70"
+    },
+    "food_pairing": [
+      "Seafood salad",
+      "Sweet and sour pork",
+      "Lemon drizzle cake"
+    ],
+    "brewers_tips": "Make sure you burtonise your water as Dortmund's water contains a fairly high amount of sulphates. Carbonate this to approximately 2.6 volumes",
+    "contributed_by": "John Jenkman <johnjenkman>"
+  }
+]

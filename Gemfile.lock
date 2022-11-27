@@ -91,8 +91,15 @@ GEM
       reline (>= 0.3.1)
     diff-lcs (1.5.0)
     erubi (1.11.0)
+    faraday (2.7.1)
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-net_http (3.0.2)
     globalid (1.0.0)
       activesupport (>= 5.0)
+    http-2-next (0.5.1)
+    httpx (0.21.1)
+      http-2-next (>= 0.4.1)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     io-console (0.5.11)
@@ -182,6 +189,7 @@ GEM
       rspec-mocks (~> 3.11)
       rspec-support (~> 3.11)
     rspec-support (3.12.0)
+    ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
     selenium-webdriver (4.6.1)
       childprocess (>= 0.5, < 5.0)
@@ -224,6 +232,8 @@ DEPENDENCIES
   capybara
   cssbundling-rails
   debug
+  faraday (~> 2.7)
+  httpx (~> 0.21.1)
   jsbundling-rails
   propshaft
   puma (~> 5.0)

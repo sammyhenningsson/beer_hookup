@@ -62,3 +62,7 @@ group :test do
   gem "webdrivers"
   gem "rspec-rails"
 end
+
+gem "faraday", "~> 2.7"
+
+gem "httpx", "~> 0.21.1"
