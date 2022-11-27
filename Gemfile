@@ -66,3 +66,5 @@ end
 gem "faraday", "~> 2.7"
 
 gem "httpx", "~> 0.21.1"
+
+gem "store_model", "~> 1.3"

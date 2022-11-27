@@ -10,7 +10,20 @@
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
 
-  <body>
-    <%= yield %>
-  </body>
+    <body>
+      <div class="flex h-screen">
+        <!-- sidebar -->
+        <div class="w-1/3">
+          <nav class="hidden md:block h-full bg-zinc-200">
+            <p>Hello sidebar</p>
+          </nav>
+        </div>
+
+        <div class="w-full bg-zinc-100">
+          <main class="p-16 overflow-y-auto">
+            <%= yield %>
+          </main>
+        </div>
+      </div>
+    </body>
 </html>

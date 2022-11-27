@@ -1,0 +1,12 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Beers</h1>
+
+<div id="beers">
+  <% @beers.each do |beer| %>
+    <%= render partial: 'item', locals: {beer:} %>
+    <p>
+      <%= link_to "Show this beer", beer %>
+    </p>
+  <% end %>
+</div>
