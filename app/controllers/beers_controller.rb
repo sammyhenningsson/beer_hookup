@@ -12,6 +12,7 @@ class BeersController < ApplicationController
   def show
     @beer = FetchBeer.call(external_id: params[:id])
     @recent_searches = recent_searches
+    @last_search = session[:last_search] || beers_path
   rescue PunkApi::Client::NotFoundError => error
     Rails.logger.error(error.message)
     render "not_found"
@@ -32,6 +33,7 @@ class BeersController < ApplicationController
 
   def save_search
     query = params[:query]
+    session[:last_search] = beers_path(query:, page:)
     searches = recent_searches
     return searches if query.blank?
 
