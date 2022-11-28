@@ -16,9 +16,7 @@ class FetchBeers
   end
 
   def call
-    client.beers(name: query, page:, per_page:).map do |data|
-      upsert(data)
-    end
+    upsert_all client.beers(name: query, page:, per_page:)
   end
 
   private
@@ -27,9 +25,18 @@ class FetchBeers
     PunkApi::Client.new
   end
 
-  def upsert(data)
+  def upsert_all(data)
+    external_ids = data.pluck("id")
+    beers = Beer.where(external_id: external_ids).index_by(&:external_id)
+    data.map do |beer_data|
+      external_id = beer_data["id"]
+      upsert(beers[external_id], beer_data)
+    end
+  end
+
+  def upsert(beer, data)
     external_id = data["id"]
-    beer = Beer.find_or_initialize_by(external_id:)
+    beer ||= Beer.new(external_id:)
     beer.data = data
     beer.save!
     beer
