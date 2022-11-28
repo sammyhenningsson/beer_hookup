@@ -1,10 +1,8 @@
 class BeersController < ApplicationController
   def index
     query = params[:query]
-    @recent_searches = recent_searches
+    @recent_searches = save_search
     return render "start" unless query
-
-    save_search
 
     @beers = FetchBeers.call(query:, page:)
     @pagination = paginate(@beers)
@@ -34,9 +32,9 @@ class BeersController < ApplicationController
 
   def save_search
     query = params[:query]
-    return if query.blank?
-
     searches = recent_searches
+    return searches if query.blank?
+
     searches.unshift query unless searches.include? query
     session[:recent_searches] = searches[..4]
   end
