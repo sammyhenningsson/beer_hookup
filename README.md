@@ -22,3 +22,15 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+dif
+
+
+
+ - git clone git@github.com:sammyhenningsson/beer_hookup.git
+ - cd beer_hookup/
+ - bundle install
+ - npm install --global yarn
+ - rails db:migrate
+ - yarn build
+ - yarn build:css
+ - rails server
