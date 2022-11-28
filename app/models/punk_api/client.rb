@@ -65,7 +65,12 @@ module PunkApi
         f.adapter(*adapter)
         f.headers = {"Accept" => "application/json"}
         f.response :json # Decode json response body
+        f.use :http_cache, store: http_cache_store, logger: Rails.logger
       end
+    end
+
+    def http_cache_store
+      ActiveSupport::Cache::FileStore.new(Rails.root.join("tmp/http_cache"))
     end
   end
 end

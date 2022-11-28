@@ -94,6 +94,8 @@ GEM
     faraday (2.7.1)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
+    faraday-http-cache (2.4.1)
+      faraday (>= 0.8)
     faraday-net_http (3.0.2)
     globalid (1.0.0)
       activesupport (>= 5.0)
@@ -235,6 +237,7 @@ DEPENDENCIES
   cssbundling-rails
   debug
   faraday (~> 2.7)
+  faraday-http-cache (~> 2.4)
   httpx (~> 0.21.1)
   jsbundling-rails
   propshaft
