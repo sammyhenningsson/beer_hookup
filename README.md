@@ -1,36 +1,33 @@
-# README
+# Beer hookup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application uses the PUNK API to search beers and show info about them.
+It requires Ruby version 3.1.
 
-Things you may want to cover:
+## Installation
+Clone the repository and install dependencies using the following commands
+```sh
+ $ git clone git@github.com:sammyhenningsson/beer_hookup.git
+ $ cd beer_hookup
+ $ bundle install
+ $ npm install --global yarn
+ $ yarn build
+ $ yarn build:css
+```
 
-* Ruby version
+It caches the beer data in a sqlite3 database. So we need to run a migration to setup the database.
+```sh
+ $ rails db:migrate
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-dif
+## Starting the application
+The application is started using
+```sh
+ $ rails server
+```
 
 
-
- - git clone git@github.com:sammyhenningsson/beer_hookup.git
- - cd beer_hookup/
- - bundle install
- - npm install --global yarn
- - rails db:migrate
- - yarn build
- - yarn build:css
- - rails server
+## Testing
+To verify that everything works as intended run the test suite with:
+```sh
+ $ rspec
+```
