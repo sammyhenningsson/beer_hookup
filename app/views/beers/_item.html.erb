@@ -4,6 +4,6 @@
     <p class="text-sm"><%= beer.tagline %></p>
   </div>
   <div class="">
-    <%= link_to "Details", beer_path(beer.external_id), class: "p-3 shadow-slate-500 shadow-lg rounded bg-stone-200 hover:bg-stone-300 text-center" %>
+    <%= link_to "Details", beer_path(beer.external_id), class: "p-3 shadow-slate-500 shadow-lg rounded bg-stone-200 hover:bg-stone-300 text-center", data: { turbo_action: :advance }%>
   </div>
 </div>
